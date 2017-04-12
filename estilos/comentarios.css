@@ -1,0 +1,57 @@
+			.thumbnail {
+                padding:0px;
+            }
+            .panel {
+                position:relative;
+            }
+            .panel>.panel-heading:after,.panel>.panel-heading:before{
+                position:absolute;
+                top:11px;left:-16px;
+                right:100%;
+                width:0;
+                height:0;
+                display:block;
+                content:" ";
+                border-color:transparent;
+                border-style:solid solid outset;
+                pointer-events:none;
+            }
+            .panel>.panel-heading:after{
+                border-width:7px;
+                border-right-color:#ddd;
+                margin-top:1px;
+                margin-left:2px;
+            }
+            .panel>.panel-heading:before{
+                border-right-color:#ddd;
+                border-width:8px;
+            }
+
+             .profile-img-card {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 10px;
+            display: block;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+}
+             .profile-img-card2 {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 10px;
+            display: block;
+            -moz-border-radius: 10%;
+            -webkit-border-radius: 10%;
+            border-radius: 10%;
+}
+
+            .rolagem { 
+ 			height:100px;
+  			background-color:#FFFFFF;
+  			overflow:auto;
+}
+			 .rolagem2 { 
+			height:500px;
+  			overflow:scroll;
+}

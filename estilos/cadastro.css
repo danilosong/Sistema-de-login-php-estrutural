@@ -1,0 +1,61 @@
+                    @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
+                    @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+
+                    h1, h2, h3, h4, h5, h6 {
+                        font-family: 'Roboto Condensed', sans-serif;
+                        font-weight: 400;
+                        color:#111;
+                        margin-top:5px;
+                        margin-bottom:5px;
+                    }
+                    h1, h2, h3 {
+                        text-transform:uppercase;
+                    }
+
+                    input.upload {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        margin: 0;
+                        padding: 0;
+                        font-size: 12px;
+                        cursor: pointer;
+                        opacity: 1;
+                        filter: alpha(opacity=1);    
+                    }
+
+                    .form-inline .form-group{
+                        margin-left: 0;
+                        margin-right: 0;
+                    }
+                    .control-label {
+                        color:#333333;
+                    }
+                    .card {
+                        background-color: #F7F7F7;
+                        /* just in case there no content*/
+                        padding: 30px 15px 10px;
+                        margin: auto auto auto;
+                        margin-top: auto;
+                        margin-left: auto;
+                        margin-right: auto;
+                        /* shadows and rounded borders */
+                        -moz-border-radius: 2px;
+                        -webkit-border-radius: 2px;
+                        border-radius: 0px 0px 106px 0px;
+                        -moz-box-shadow: 5px 5px 10px #00001a;
+                        -webkit-box-shadow: 5px 5px 10px #00001a;
+                        box-shadow: 5px 5px 10px #00001a;
+                    }
+                    .textosombra {
+                        text-shadow: #000 1px 1px 1px;
+                    }
+                    .profile-img-card {
+                        width: 130px;
+                        height: 130px;
+                        margin: 0 auto 10px;
+                        display: block;
+                        -moz-border-radius: 50%;
+                        -webkit-border-radius: 50%;
+                        border-radius: 50%;
+                    }
